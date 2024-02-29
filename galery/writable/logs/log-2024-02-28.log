@@ -1,0 +1,26 @@
+CRITICAL - 2024-02-28 19:31:40 --> syntax error, unexpected token "-", expecting "("
+#0 C:\xampp\htdocs\UKK\galery\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\xampp\htdocs\UKK\galery\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\xampp\htdocs\UKK\galery\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\UKK\galery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UKK\galery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\UKK\galery\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-28 19:31:46 --> syntax error, unexpected token "-", expecting "("
+#0 C:\xampp\htdocs\UKK\galery\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/register')
+#1 C:\xampp\htdocs\UKK\galery\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/register')
+#2 C:\xampp\htdocs\UKK\galery\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\UKK\galery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UKK\galery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\UKK\galery\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-28 19:47:33 --> Invalid file: upload.php
+#0 C:\xampp\htdocs\UKK\galery\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('upload.php')
+#1 C:\xampp\htdocs\UKK\galery\system\Common.php(1089): CodeIgniter\View\View->render('upload', Array, true)
+#2 C:\xampp\htdocs\UKK\galery\app\Controllers\Home.php(48): view('upload')
+#3 C:\xampp\htdocs\UKK\galery\system\CodeIgniter.php(832): App\Controllers\Home->upload()
+#4 C:\xampp\htdocs\UKK\galery\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\UKK\galery\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UKK\galery\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UKK\galery\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
